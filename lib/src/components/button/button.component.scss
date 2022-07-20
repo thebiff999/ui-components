@@ -1,0 +1,8 @@
+@use '../../styles/dimensions';
+@use '../../styles/colors';
+
+button {
+  border-radius: dimensions.$border-radius;
+  background-color: map-get(colors.$orange, 500);
+  color: colors.$white;
+}
